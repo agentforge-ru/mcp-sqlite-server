@@ -4,6 +4,21 @@ A minimal but production-safe **MCP server for SQLite** — lets Claude (or any 
 
 > Connect Claude to your local SQLite database in 30 seconds. No external services, no API keys, no recurring cost — just a local Python server.
 
+---
+
+## 🇷🇺 На русском
+
+**Кому это подойдёт:**
+- У тебя есть **локальная SQLite-база** и ты хочешь чтобы Claude/Cursor мог её читать/писать без копипасты в чат
+- Ты indie-developer и ищешь **production-ready пример MCP-сервера** для своего проекта
+- Тебе нужна **кастомная версия** под твою специфическую базу/таблицу/workflow
+
+**Что входит в проект:** рабочий код на Python (~250 строк), безопасность (запрет DROP/TRUNCATE по умолчанию), pyproject.toml для установки одной командой, готовый config для Claude Desktop, sample-база для теста.
+
+**Заказать кастомную версию** (под твою БД, твои tools, твою специфику): [Kwork → agentforge_ru](https://kwork.ru/user/agentforge_ru) — от 3 500 ₽, сроки 48-72 часа.
+
+---
+
 ## Why this exists
 
 Asking Claude "look at my SQLite database" usually means copy-pasting `SELECT *` results into chat. That's painful.
