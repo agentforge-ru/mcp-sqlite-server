@@ -1,5 +1,10 @@
 # mcp-sqlite-server
 
+[![CI](https://github.com/agentforge-ru/mcp-sqlite-server/actions/workflows/ci.yml/badge.svg)](https://github.com/agentforge-ru/mcp-sqlite-server/actions/workflows/ci.yml)
+[![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![MCP](https://img.shields.io/badge/MCP-compatible-purple)](https://modelcontextprotocol.io)
+
 A minimal but production-safe **MCP server for SQLite** — lets Claude (or any MCP client) talk to a local SQLite database with read/write tools and built-in safety guards against destructive operations.
 
 > Connect Claude to your local SQLite database in 30 seconds. No external services, no API keys, no recurring cost — just a local Python server.
